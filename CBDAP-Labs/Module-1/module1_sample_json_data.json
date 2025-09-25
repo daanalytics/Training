@@ -1,0 +1,242 @@
+[
+  {
+    "customer_id": "CUST001",
+    "personal_info": {
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "john.doe@email.com",
+      "phone": "+1-555-0123",
+      "date_of_birth": "1985-03-15",
+      "address": {
+        "street": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "country": "USA"
+      }
+    },
+    "preferences": {
+      "communication": {
+        "email_notifications": true,
+        "sms_notifications": false,
+        "preferred_language": "en"
+      },
+      "shopping": {
+        "favorite_categories": ["electronics", "books", "clothing"],
+        "budget_range": {
+          "min": 100,
+          "max": 1000,
+          "currency": "USD"
+        }
+      }
+    },
+    "activity": {
+      "registration_date": "2023-01-15T10:30:00Z",
+      "last_login": "2024-01-20T14:22:33Z",
+      "total_orders": 45,
+      "lifetime_value": 2340.50,
+      "loyalty_tier": "Gold"
+    },
+    "metadata": {
+      "source": "web_registration",
+      "campaign_id": "SPRING2023",
+      "referral_code": "FRIEND123",
+      "tags": ["high_value", "frequent_buyer", "tech_savvy"]
+    }
+  },
+  {
+    "customer_id": "CUST002",
+    "personal_info": {
+      "first_name": "Sarah",
+      "last_name": "Smith",
+      "email": "sarah.smith@email.com",
+      "phone": "+1-555-0456",
+      "date_of_birth": "1992-07-22",
+      "address": {
+        "street": "456 Oak Ave",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90210",
+        "country": "USA"
+      }
+    },
+    "preferences": {
+      "communication": {
+        "email_notifications": true,
+        "sms_notifications": true,
+        "preferred_language": "en"
+      },
+      "shopping": {
+        "favorite_categories": ["beauty", "fashion", "home"],
+        "budget_range": {
+          "min": 50,
+          "max": 500,
+          "currency": "USD"
+        }
+      }
+    },
+    "activity": {
+      "registration_date": "2023-06-10T16:45:00Z",
+      "last_login": "2024-01-19T09:15:22Z",
+      "total_orders": 23,
+      "lifetime_value": 890.25,
+      "loyalty_tier": "Silver"
+    },
+    "metadata": {
+      "source": "mobile_app",
+      "campaign_id": "SUMMER2023",
+      "referral_code": null,
+      "tags": ["beauty_enthusiast", "social_media_user"]
+    }
+  },
+  {
+    "customer_id": "CUST003",
+    "personal_info": {
+      "first_name": "Michael",
+      "last_name": "Johnson",
+      "email": "mike.j@email.com",
+      "phone": "+1-555-0789",
+      "date_of_birth": "1978-11-08",
+      "address": {
+        "street": "789 Pine Rd",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "country": "USA"
+      }
+    },
+    "preferences": {
+      "communication": {
+        "email_notifications": false,
+        "sms_notifications": true,
+        "preferred_language": "en"
+      },
+      "shopping": {
+        "favorite_categories": ["sports", "automotive", "tools"],
+        "budget_range": {
+          "min": 200,
+          "max": 2000,
+          "currency": "USD"
+        }
+      }
+    },
+    "activity": {
+      "registration_date": "2022-09-05T12:20:00Z",
+      "last_login": "2024-01-21T11:30:45Z",
+      "total_orders": 67,
+      "lifetime_value": 4560.75,
+      "loyalty_tier": "Platinum"
+    },
+    "metadata": {
+      "source": "partner_referral",
+      "campaign_id": "FALL2022",
+      "referral_code": "PARTNER456",
+      "tags": ["high_value", "brand_ambassador", "early_adopter"],
+      "custom_fields": {
+        "industry": "construction",
+        "company_size": "medium",
+        "annual_revenue": 5000000
+      }
+    }
+  },
+  {
+    "customer_id": "CUST004",
+    "personal_info": {
+      "first_name": "Emma",
+      "last_name": "Wilson",
+      "email": "emma.wilson@email.com",
+      "phone": "+1-555-0321",
+      "date_of_birth": "1995-04-12",
+      "address": {
+        "street": "321 Elm St",
+        "city": "Miami",
+        "state": "FL",
+        "zip_code": "33101",
+        "country": "USA"
+      }
+    },
+    "preferences": {
+      "communication": {
+        "email_notifications": true,
+        "sms_notifications": true,
+        "preferred_language": "es"
+      },
+      "shopping": {
+        "favorite_categories": ["fashion", "accessories", "jewelry"],
+        "budget_range": {
+          "min": 75,
+          "max": 750,
+          "currency": "USD"
+        }
+      }
+    },
+    "activity": {
+      "registration_date": "2023-11-20T14:10:00Z",
+      "last_login": "2024-01-18T16:45:12Z",
+      "total_orders": 8,
+      "lifetime_value": 245.80,
+      "loyalty_tier": "Bronze"
+    },
+    "metadata": {
+      "source": "social_media",
+      "campaign_id": "HOLIDAY2023",
+      "referral_code": "SOCIAL789",
+      "tags": ["new_customer", "social_influencer"],
+      "social_media": {
+        "platforms": ["instagram", "tiktok"],
+        "followers": 15000,
+        "engagement_rate": 4.2
+      }
+    }
+  },
+  {
+    "customer_id": "CUST005",
+    "personal_info": {
+      "first_name": "David",
+      "last_name": "Brown",
+      "email": "david.brown@email.com",
+      "phone": "+1-555-0654",
+      "date_of_birth": "1988-12-03",
+      "address": {
+        "street": "654 Maple Dr",
+        "city": "Seattle",
+        "state": "WA",
+        "zip_code": "98101",
+        "country": "USA"
+      }
+    },
+    "preferences": {
+      "communication": {
+        "email_notifications": true,
+        "sms_notifications": false,
+        "preferred_language": "en"
+      },
+      "shopping": {
+        "favorite_categories": ["electronics", "gaming", "software"],
+        "budget_range": {
+          "min": 150,
+          "max": 1500,
+          "currency": "USD"
+        }
+      }
+    },
+    "activity": {
+      "registration_date": "2023-03-18T09:30:00Z",
+      "last_login": "2024-01-21T13:20:15Z",
+      "total_orders": 34,
+      "lifetime_value": 1875.40,
+      "loyalty_tier": "Gold"
+    },
+    "metadata": {
+      "source": "search_engine",
+      "campaign_id": "SPRING2023",
+      "referral_code": null,
+      "tags": ["tech_enthusiast", "early_adopter"],
+      "technical_preferences": {
+        "device_types": ["laptop", "smartphone", "tablet"],
+        "operating_systems": ["windows", "android", "ios"],
+        "tech_savviness": "high"
+      }
+    }
+  }
+]
